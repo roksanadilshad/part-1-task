@@ -1,7 +1,8 @@
 function repeatedItem(numbers, find){
     let arr = 0;
     for(const num of numbers){
-        if(numbers.includes(find) && num === find){
+        // if(numbers.includes(find) && num === find)
+        if(num === find){
             arr++;
         }
     }
